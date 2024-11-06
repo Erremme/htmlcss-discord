@@ -178,6 +178,7 @@ section{
 #first-section>.small{
     width: 25%;
     padding-top: 60px;
+    text-align: right;
 
 }
 
@@ -209,6 +210,7 @@ section{
 
 #third-section{
     display: flex;
+    padding: 200px 0;
 
 }
 
@@ -218,8 +220,24 @@ section{
     align-items: center;
 }
 
-#fourth-section{
-    min-height: 900px;
+#third-section> .small{
+    text-align: right;
+}
+
+#fourth-section> h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#fourth-section> p{
+    text-align: center;
+    padding-top: 35px;
+}
+
+.item-container{
+    display: flex;
+    justify-content: center;
+
 }
 
 /*----------------
