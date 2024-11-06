@@ -17,11 +17,6 @@
     margin:auto
 }
 
-p{
-    margin-top: 60px;
-    margin-bottom: 35px;
-    font-size: 16px;
-}
 
 button{
     background: transparent;
@@ -36,14 +31,15 @@ button{
 ----------*/
 body{
     font-family: "Roboto", serif;
-    color: #fff;
     line-height: 1.5;
 }
 
 /*----------
     HEADER
 ----------*/
-
+header{
+    color: #fff;
+}
 
 /*--------------
     HEADER TOP
@@ -123,6 +119,12 @@ h1{
     
 }
 
+.header-bottom .hero> p{
+    margin-top: 60px;
+    margin-bottom: 35px;
+    font-size: 16px;
+}
+
 .btn-small{
   padding: 10px 15px;
 }
@@ -158,18 +160,34 @@ section{
 
 #first-section{
     display: flex;
+    padding-top: 50px;
     
 }
 
+
 .big{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     width: 70%;
-    min-height: 500px;
 }
 
 .small{
-    width: 30%;
-    min-height: 500px;
+    width: 25%;
+    padding-top: 60px;
+
 }
+
+.small> h2{
+    font-size: 40px;
+    color: #23272a;
+}
+
+.small > p{
+    padding-top: 30px;
+    color: #23272a;
+}
+
 
 #second-section{
     display: flex;
