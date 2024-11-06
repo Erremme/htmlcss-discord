@@ -209,6 +209,13 @@ section{
 
 #third-section{
     display: flex;
+
+}
+
+#third-sectioin> .big{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #fourth-section{
