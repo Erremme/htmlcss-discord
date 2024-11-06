@@ -269,7 +269,9 @@ section{
 /*----------------
     FOOTER
 ------------------*/
-
+footer{
+    background-color: #23272a;
+}
 
 /*----------------
     FOOTER TOP
@@ -283,6 +285,7 @@ section{
 #column-footer{
     display: flex;
     min-height: 580px;
+    padding-top:85px;
 
 }
  
@@ -291,6 +294,36 @@ section{
 ------------------*/
 .col-big{
    width: 40%;
+}
+
+.col-big> h2{
+    font-size:48px;
+    text-align: left;
+    color: #7289da;
+    padding-bottom: 25px;
+}
+
+.flag{
+    display: flex;
+    gap: 5px;
+    color: #fff;
+}
+
+.flag> img{
+    width:18px;
+    
+}
+
+.flag> h5 i{
+    font-size: 18px;
+}
+
+.col-big .icons{
+    display: flex;
+    gap: 30px;
+    padding-top: 25px;
+    font-size: 18px;
+    color: #fff;
 }
 
 .col-small{
