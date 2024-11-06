@@ -17,6 +17,10 @@
     margin:auto
 }
 
+.grey{
+    background-color: #f5f5f5ff;
+}
+
 
 button{
     background: transparent;
@@ -160,19 +164,18 @@ section{
 
 #first-section{
     display: flex;
-    padding-top: 50px;
+    padding: 100px 0;
+    justify-content: flex-start;
+    align-items: center;
     
 }
 
 
 .big{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
     width: 70%;
 }
 
-.small{
+#first-section>.small{
     width: 25%;
     padding-top: 60px;
 
@@ -191,6 +194,17 @@ section{
 
 #second-section{
     display: flex;
+    padding: 200px 0;
+}
+
+#second-section > .big{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#second-section> .small{
+    padding-top: 40px;
 }
 
 #third-section{
