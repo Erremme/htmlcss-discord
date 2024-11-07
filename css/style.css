@@ -28,6 +28,17 @@ button{
     border-radius: 25px;
     font-family: "Roboto", serif;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+
+#bg-stars{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 
 /*----------
@@ -61,7 +72,7 @@ header{
 }
 
 #header-group > .logo{
-    display: flex;
+   text-align: center;
 }
 
 
@@ -202,9 +213,7 @@ section{
 }
 
 #second-section > .big{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    text-align: right;
 }
 
 #second-section> .small{
@@ -219,11 +228,6 @@ section{
 
 }
 
-#third-sectioin> .big{
-    display: flex;
-    justify-content: flex-start;
-}
-
 
 #third-section> .small{
     text-align: right;
@@ -231,40 +235,28 @@ section{
 
 #fourth-section{
     padding: 100px 0;
+    text-align: center;
 }
 
 #fourth-section> h2 {
-    font-size: 50px;
-    text-align: center;
+    font-size: 50px;;
     color: #23272a;
+    padding-bottom: 10px;
 }
 
 #fourth-section> p{
-    text-align: center;
     padding-top: 35px;
     font-size: 20px;
     color: #23272a;
 }
 
-.item-container{
-    display: flex;
-    justify-content: center;
-
+#fourth-section h3{
+    font-size: 30px;
+    padding-bottom: 30px;
 }
-
-.item-container> img{
-    width: 100%;
-    padding-bottom: 100px;
-}
-
-.btn-container{
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-}
-
-.btn-container> button{
-    background-color:#8ea1e1;
+ 
+#fourth-section button{
+    background-color: #7289da;
 }
 /*----------------
     FOOTER
